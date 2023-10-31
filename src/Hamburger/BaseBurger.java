@@ -37,6 +37,7 @@ public class BaseBurger {
             additions.add(ham);
             System.out.println("ham");
         }
+
     }
     public String calculatePrice(){
         this.total_price = this.base_price + addedPrice * this.additions.size();
